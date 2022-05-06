@@ -1,0 +1,155 @@
+#footer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(248, 239, 239);
+    border-top:3px solid #e5e2de;
+    margin-top: 40px;
+}
+.email{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    width: 90%;
+    background-color:  rgb(248, 239, 239);
+    margin: auto;
+    gap: 70px;
+    padding-top: 40px;
+}
+.email>div>h1{
+    /* border: 1px solid black; */
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0px 0px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.email>div>p{
+    /* border: 1px solid black; */
+    font-size:  14px;
+    margin: 0px 0px 10px;
+    padding-top: 10px;
+    color: #5C5C5F;
+    font-family: Avenir Book,sans-serif;
+    width: 90%;
+}
+.Email-Address{
+    font:13px;
+    color: #26262C;
+    font-weight: 500;
+    padding-top: -10px;
+}
+.input2{
+    padding: 13px 80px ;
+   
+}
+.submit-btn{
+    padding: 13px 40px ;
+    background-color: #4b5666;
+    border: 1px solid #4b5666;
+    color: white;
+    font-weight: 400;
+    line-height: normal;
+    min-height: 45px;
+    padding: 10px 20px;
+    letter-spacing: .24rem;
+    font-family: Avenir Medium,sans-serif;
+    margin-left: 20px;
+}
+.submit-btn:hover{
+    background-color: white;
+    color:  #4b5666;
+    border: 1px solid #4b5666;
+}
+.email-para{
+    width: 100%;
+    margin: auto;
+    font-size:  14px;
+    color: #5C5C5F;
+    font-family: Avenir Book,sans-serif;
+    margin-top: 25px;
+    padding-bottom: 25px ;
+    border-bottom:3px solid #e5e2de;
+    text-align: center;
+    /* margin-left: 60px; */
+}
+
+#footer-2{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    background-color: rgb(248, 239, 239);
+}
+.subdiv-footer{
+    display: grid;
+    width: 70%;
+    margin-left: 100px;
+    padding-top: 50px;
+    row-gap: 10px;
+}
+a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #5C5C5F;
+}
+a:hover{
+    text-decoration: underline;
+}
+.subdiv-footer>h3{
+    font-size: 19px;
+    color: #26262C;
+}
+.fa-solid{
+    font-size:15px;
+}
+.fa-light{
+    font-size:15px;
+}
+.subdiv-footer>p{
+    color:#167a92;
+    cursor: pointer;
+}
+.subdiv-footer>p:hover{
+    text-decoration: underline;
+    color:  #5C5C5F;
+}
+#email-top{
+    margin-top: -120px;
+}
+#logoss{
+    display: flex;
+    background-color:  rgb(248, 239, 239);
+    margin: auto;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 80px;
+}
+#logoss>a{
+    text-decoration: none;
+    font-size: 30px;
+  
+    color: #167a92;
+}
+#logoss>a:hover{
+    color: #5C5C5F;
+}
+#last-img{
+        background-color:rgb(248, 239, 239) ;
+        text-align: center;
+        padding-bottom: 10px;
+      
+}
+#last-img>img{
+    display: flex;
+    width: 90%;
+    margin: auto;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+#last-img>a{
+    color: #167a92;
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+#last-img>a:hover{
+    color: #26262C;
+}
