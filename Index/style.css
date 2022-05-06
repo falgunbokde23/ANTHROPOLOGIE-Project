@@ -1,0 +1,84 @@
+
+#main_container{
+    width: 92%;
+    margin: 30px auto;
+}
+
+#grid_container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 32%   ;
+    grid-template-rows: 160px 160px 160px 160px 160px 160px 160px 160px 160px 160px 160px;
+    gap: 20px;
+    justify-content: space-between;
+    grid-template-areas: 
+        "a a b"
+        "a a b"
+        "a a b"
+        "a a c"
+        "d h c"
+        "d h c"
+        "d h e"
+        "d h e"
+        "f f e"
+        "f f g"
+        "f f g"
+        "f f g"
+        "i i i"
+        "i i i"
+        "i i i"
+        "i i i"
+    ;
+}
+
+#grid_container > div:nth-child(1){
+    background-color: blue;
+    grid-area: a;
+}
+#grid_container > div:nth-child(2){
+    grid-area: b;
+}
+#grid_container > div:nth-child(3){
+    grid-area: c;
+}
+#grid_container > div:nth-child(4){
+    grid-area: d;
+}
+#grid_container > div:nth-child(5){
+    grid-area: e;
+}
+#grid_container > div:nth-child(6){
+    grid-area: f;
+}
+#grid_container > div:nth-child(7){
+    grid-area: g;
+}
+#grid_container > div:nth-child(8){
+    grid-area: h;
+}
+#grid_container > div:nth-child(9){
+    grid-area: i;
+}
+
+#grid_container > div > a > img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* .pop_up{
+    margin: 0;
+    overflow: hidden;
+
+}
+
+.pop_up>a>img:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s, opacity 0.5s;
+
+} */
+
+
+@media all and (min-width:750px) and (max-width:950px){
+
+}
