@@ -1,0 +1,129 @@
+#basket_element_container{
+    width: 92%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+#Basket_container{
+    width: 65%;
+    font-family: 'Mulish', sans-serif;
+}
+#Order_Summary{
+    width: 35%;
+}
+#Basket_heading{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(212, 212, 212);
+    padding-bottom: 15px;
+}
+#Basket_heading>a{
+    padding-top: 7px;
+    color: #167A92;
+    font-size: .9rem;
+}
+#Basket_heading>a:hover{
+    color: black;
+    text-decoration: none;
+}
+table{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+}
+.timage{
+    width: 20%;
+    padding: 10px 0;
+}
+.timage>img{
+    width: 100%;
+    
+}
+.tname{
+ width: 40%;
+}
+.tremove{
+    width: 20%;
+}
+.timage, .tname, .tprice, .tremove{
+    border-bottom: 1px solid rgb(212, 212, 212);
+}
+#removeButton{
+    padding: 10px 15px;
+    background-color: rgb(29, 64, 68);
+    border: 1px solid rgb(29, 64, 68);
+    color: white;
+    border-radius: 10px;
+}
+#removeButton:hover{
+    padding: 10px 15px;
+    background-color: white;
+    border: 1px solid rgb(29, 64, 68);
+    color: #167A92;
+    border-radius: 10px;
+}
+
+#Order_summary{
+    width: 30%;
+    font-family: 'Mulish';
+}
+#summary_content{
+    border: 1px solid rgb(212, 212, 212);
+    padding: 0 20px;
+    text-align: center;
+}
+#summary_content>div{
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+#summary_content>div~p{
+    font-size: .8rem;
+}
+#checkout, #paypal{
+    
+    margin: auto;
+}
+#checkout>a, #paypal>a{
+    margin: auto;
+    color: white;
+}
+#checkout{
+    
+    color: white;
+    border: 1px solid rgb(29, 64, 68);
+    background-color: rgb(29, 64, 68);
+}
+#checkout:hover{
+    color: black;
+    border: 1px solid rgb(29, 64, 68);
+    background-color: white;
+    color: black;
+}
+#checkout>a{
+    width: 100%;
+    padding: 15px;
+}
+#checkout>a:hover{
+    color: black;
+    text-decoration: none;
+}
+#paypal{
+    padding: 10px 0 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#promo{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    margin: 30px 20px;
+}
+#promo:hover{
+    cursor: pointer;
+
+}
+select{
+    width: 100%;
+}

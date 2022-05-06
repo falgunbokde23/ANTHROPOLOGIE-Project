@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basket</title>
+    <link rel="stylesheet" href="Navbar.css">
+    <link rel="stylesheet" href="Basket.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400&family=Noto+Serif&display=swap" rel="stylesheet"> 
+
+</head>
+<body>
+    <!-- ---------------------------------------Navbar Part------------------------------------------- -->
+    <div id="utility">
+            <div id="language">
+                <div><img src="icon\globe-svgrepo-com.svg" alt=""></div>
+                <div><p>English  ($)</p></div>
+                <div><img src="icon\down-arrow-svgrepo-com.svg" alt=""></div>
+            </div>
+            <div id="credebility">
+                <div><img src="icon\user-profile-svgrepo-com.svg" alt="profile"></div>
+                <div><a href="#">Sing In / Sign Up</a></div>
+            </div>
+    </div>
+    <div id="navbar">
+        <div id="navbar1">
+            <div id="main-secondary">
+                <div id="main"><a href="index.html">ANTHROPOLOGIE</a></div>
+                <div id="secondary"><a href="#"><img src="https://images.ctfassets.net/5de70he6op10/y1O9tEDOvCGliGUvT9RoJ/eb8ab4734c5e3778b8b61da70ed441ac/AL_NewLogo_2.svg" alt=""></a></div>
+            </div>
+            <div id="search-cart">
+                <div class= "search" id="search">
+                    <a class= "search" href="#">Search Anthropologie</a>
+                    <img src="icon\search-svgrepo-com.svg" alt="">
+                </div>
+                <div id="cart_ico">
+                    <a href="Basket.html"><img src="icon\bag-svgrepo-com.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div id="parentvariation">
+            <div id="variation">
+                <div><a id="new" href="#">New!</a></div>
+                <div id="new_content"></div>
+                <div><a id="gift" href="#">Gifts for Mom</a></div>
+                <div id="gift_content"></div>
+                <div><a id="dress" href="#">Dresses</a></div>
+                <div id="dress_content"></div>
+                <div><a id="clothing" href="#">Clothing</a></div>
+                <div id="clothing_content"></div>
+                <div><a id="shoes" href="#">Shoes</a></div>
+                <div id="shoes_content"></div>
+                <div><a id="Accessories" href="#">Accessories</a></div>
+                <div id="Accessories_content"></div>
+                <div><a id="furniture" href="#">Home & Furniture</a></div>
+                <div id="furniture_content"></div>
+                <div><a id="beauty" href="Beauty.html">Beauty & Wellness</a></div>
+                <div id="beauty_content"></div>
+                <div><a id="garden" href="#">Garden & Outdoor</a></div>
+                <div id="garden_content"></div>
+                <div><a id="weddingt" href="#">Weddings</a></div>
+                <div id="wedding_content"></div>
+                <div><a id="sale" href="#">Sale</a></div>
+                <div id="sale_content"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Basket basket_element_container Starts form here -->
+
+    <div id="basket_element_container">
+        <div id="Basket_container">
+            <div id="Basket_heading">
+                <h2>Basket</h2>
+                <a href="#">Delivery Options</a>
+            </div>
+            <div id="basket_content_table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="timage">Item Image</th>
+                            <th class="tname">Item Name</th>
+                            <th class="tprice">Item Price</th>
+                            <th class="tremove">Remove from basket</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody">
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div id="Order_summary">
+            <div id="Basket_heading">
+                <h2>Order Summary</h2>
+                <p>Bill Number</p>
+            </div>
+            <div id="summary_content">
+                <div><h4>Subtotal</h4><h4 id="subtotalAmount"></h4></div>
+                <div><h4>Shipping</h4><h4 id="ShippingAmount"></h4></div>
+                <div><h4>Total</h4><h4 id="Total"></h4></div>
+                <p>Klarna is only available to ship to certain countries <b>Klarna</b></p>
+                <p>Or 4 interest-free installments of $75.75 with <b>afterPay</b></p>
+                <div id="checkout"><a href="#">PROCEED TO CHECKOUT</a></div>
+                <div id="paypal"><a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHcAAAAgCAMAAAAfbBf3AAAAxlBMVEX///8AL4YAnN4BIGkAmt0ALIUAmN0AKoQAldwAJ4MAJ3fj8PoAn+EAJYLj5e0AGn8AIoEAEH0AOI0AouDt8Pbn9Pv29/r3/P4AFH1xgrEAHoDv+v2x3fPCyt3R2OfB4vUBGmU+XJ9nvekBcbOyvdZxyO1fd613kb+Szu4wV54qr+QaSZhkgbaOosdPca0aOX8AAHtGaKcBQoxOuugBEF+h3PQUP4+Gl7+m1PCD0PCfqslMruMAe8DX8PoAZqsBLHYBWJo4ltCTVHCOAAAEo0lEQVRIidWWeXOySBCHGTLDETkMh0TlUIIEvN74ukFFye5+/y+13YNGUGvdyh9WbVcqo804P7rn6Z4RBEFwZoyczMrnifAgS17J2Zj6aoWP0V10Sctk03iEbG+ut3WJvnyIbi5f6JKX3iN0LXal+4hEO0esnk9GiNm5mGKczPHuL+i5nZMNbz3GBzCGte7z07eNfvmt5Z3+xws3k6yS+1tQrZXaJHsdXb9nJCoKhbEcXOo+PSufzZnhSv2uMnNxVzeaUrE2SiX/6vHOpnQKY41zU3b0W5SaGUpyJMAiqM7uV7dvU5Hamobq1L4KeKKJdA1jHUxT94+DKDUDTgpG1P5i07dw5t2AtxjqJMtiDT9El49jUZQmMNY4t7aXitKuMbOEQlMR8TFO3XDfv/CVSSKdAjlDGyP2L6fvKY+qd4nV6OnQ1vU2XcJmqJuibikIRpCUSWAYQRCEXoj/64n40XBjSPParRV4vFXkb/3IdaMoqgQXvEoF0Ly0dUdPXzC9yYPR14m6BF0P4sX9DfqFaZqk359ZJHU2hWXNOOXh2LKsslqD7mRYx0vtoefHtiRJ9iS2bW3nReCVIPzE5LpH0dHo9xu+peKedcOlStQ0NMIStoTlXjLrMiarsiwz1u07SSGzVzzEnPmA6asQcZZ2VVUBQEhQZksUjeOdeZ+Asw2z3/mp8DzC8vnz119fB14A08Z+BdBI2ThNVwTSrJfhTCWytUo55INFzxnLRE8RA53Is6TGeR/HUxFGGkU42Os132xI466Fc/H1BnY4KBqHULnEGSpXB7qYOe8tu0QeJ2EYpOAwAyhErC54vYIx690R/LpyeYDSzsNi3vtV5R93+4RzwXHORY1bXe/StFW+eG7IOphZbAxjQFhRcj/cF7ph/V6DsLeCcIECD3CudalkZ8NIgWg5LFtMcHXCWeDba30dFfm7StNW0WFDY6s0Tftl4AilSeSVUeefsSLEAw3K+30xIHIO0SPOogZ5jidb6JITKKo9X8bHPlVxnGF5g+NsvWniKT2SFrdknXdMbICnglfzoKan/MtjfANM9AyzvIEJFZZRHAFXLk4HuMWYT4d2QmM3Qt3hEWdWHLiuNp1O4yxym7JCmKpE7zunr6DLMC7wA09z1A2Qc/hb4iSOc/a9T1hUe1ywwgSfceaXHDZTeLQZvOXV2RUCr4Dt925Dn7FWZbJYIs4b/j78YijPePfg9Xmu/h3sthZ/+tkeudlCVVGOc8qb/Yz3cO368MBoYFXzfMl0LOS6yKFqAeeEN8B3BN4q622krabckSBg0bZtzvcZZ95yWa7xs+Oqh/MAdVkeBI3vpgo51dWiUGWz9ieom/KUeFuFthbKFA6NiMrgjyWqYA8mMvYdjjNdVzfjzfN83rj49IIlMeVxmaR5ntb+JTs2cND1gZFJgxBwaFRb+/6a+yfwGG8b8OM8X/3Ntze+qdtzwFoevPY4Pe/bv8E76GknPNd1W4iAo+O63tE/hIGvgdZZ8yaW3boO3TcEQJ//5Jcuv5kAbT8x7M+y9R/ue9fWsfEaZt/E+a4tBh8fH8H9ebfM4/az3wo9z3vEPf9/bf8Am4p1OXgAohQAAAAASUVORK5CYII=" alt=""></a></div>
+            </div>
+            <div id="promo">
+                <select id="">
+                    <option value="none">Select Promo Code</option>
+                    <option value="Shashwat50">Shashwat 50% Off</option>
+                    <option value="Falgun">Falgun Free Delivery</option>
+                    <option value="Shalini20">Shalini 20% Off</option>
+                    <option value="Asheesh70">Asheesh 70% Off on Delivery</option>
+                    <option value="Aditya">Aditya 40% Off on total</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer  part from now common for all the pages  -->
+
+    <footer id="footer">
+              
+      <div class="email">
+          <div>
+              <h1>Sign Up for Email</h1>
+              <p>Receive early access to new arrivals, sales, exclusive content, events and much more!</p>
+          </div>
+          <div>
+              <p class="Email-Address">Email Address*</p>
+              <input type="email" class="input2"><button class="submit-btn">SUBMIT</button>
+          </div>
+      </div>
+      <p class="email-para">By signing up, you will receive Anthropologie offers, promotions and other commercial messages.
+      You are also agreeing to Anthropologie’s <span class="dress">Privacy Policy .</span> 
+      You may unsubscribe at any time.</p>
+
+  </footer>
+
+      <!-- help aboutus Services Connect StoreLocation -->
+
+      <div id="footer-2">
+          <div class="subdiv-footer">
+              <h3>Help</h3>
+              <a href="#">Track Your Order</a>
+              <a href="#">Start A Return Or Exchange (US)</a>
+              <a href="#">Returns & Exchanges</a>
+              <a href="#">Shipping</a>
+              <a href="#">Customer Service</a>
+              <a href="#">Current Promotions</a>
+              <a href="#">Product Recalls</a>
+              <a href="#">COVID-19 Update</a>
+          </div>
+          <div class="subdiv-footer">
+              <h3>About Us</h3>
+              <a href="#">Our Story</a>
+              <a href="#">Events</a>
+              <a href="#">A Greater Good</a>
+              <a href="#">Diversity & Inclusion</a>
+              <a href="#">Stories</a>
+          </div>
+          <div class="subdiv-footer">
+              <h3>Services</h3>
+              <a href="#">AnthroPerks</a>
+              <a href="#">Gift Cards</a>
+              <a href="#">Trade Membership</a>
+              <a href="#">Furniture: Guides & Services</a>
+              <a href="#">Store Pickup & Collection Points</a>
+          </div>
+          <div class="subdiv-footer">
+              <h3>Connect</h3>
+              <a href="#">Contact Us</a>
+              <a href="#">Stay Connected</a>
+              <a href="#">Careers</a>
+              <a href="#">Styling Services</a>
+              <a href="#">Request A Catalog</a>
+          </div>
+          <div class="subdiv-footer">
+              <p><i class="fa-solid fa-location-dot"></i><span>Store Location</span></p>
+              <p id="email-top"><i class="fa-solid fa-envelope"></i><span>Email</span></p>
+           </div>
+      </div>
+
+      <div id="logoss">
+          <img src="https://images.ctfassets.net/5de70he6op10/4gWq1G4qLLgmqlNeHfzV2T/55298745127c36c5876f4013434c0c37/Download_on_the_App_Store_Badge_US-UK_RGB_wht_092917_Copy_2.svg" alt="">
+          <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a> 
+          <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+
+      <div id="last-img">
+          <!-- banner image -->
+
+          <img src="https://images.ctfassets.net/5de70he6op10/2DRgCRXNIEkk0wIqUo2ywa/20ea44a95fb361eaf034b42eec179d44/_site_footer__download_app_enable_push_.jpg" alt="">
+
+          <!-- languages -->
+          <a href="">US |</a>
+          <a href="">France |</a>
+          <a href="">Germany |</a>
+          <a href="">UK</a>
+
+          <!-- Policy -->
+
+          <a href="">Privacy Policy |</a>
+          <a href="">Terms of Use |</a>
+          <a href="">CA Transparency |</a>
+          <a href="">Accessibility |</a>
+          <a href="">URBAN.com |</a>
+          <a href="">For CA Residents</a>
+          <p>2022 URBN.com. All Rights Reserved.</p>
+      </div>
+      <script src="Basket.js"></script>
+</body>
+</html>
