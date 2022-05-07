@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+body {
+    background-image: url(pics.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    margin:0px;
+    padding:0px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: sticky;
+}
+
+#container {
+    position: relative;
+    background-color: white;
+    width: 30%;
+    height: 620px;
+    box-shadow:  0 0 3px 0 rgba(0,0,0,0.3);
+    padding:20px;
+    margin: auto;
+    margin-top: 70px;
+   
+   
+
+}
+.para{
+   width: 90%;
+   text-align: center;
+   margin: auto;
+}
+#lower-box {
+    /* border:1px solid red; */
+   margin-top:0px;
+
+}
+
+.line {
+    width:90%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 13px;
+    height: 1px;
+    background-color: rgb(223, 223, 223);
+    border: none;
+   
+}
+.line2 {
+    margin-top: 25px;
+}
+
+.close-btn {
+ height:35px;
+ width: 50px;
+ cursor:pointer;
+ margin-left: 370px;;
+ font-size:45px;
+ line-height:25px;
+ margin-top: -5px;
+
+}
+.close-btn:hover {
+    color:rgb(65, 65, 171);
+}
+
+.input-box {
+    width:89%;
+    height:43px;
+    outline: none;
+    letter-spacing: 2px;
+}
+
+button {
+    width:90%;
+    margin-top: 15px;
+    padding:15px;
+    font-family:'Roboto', sans-serif;
+    font-weight:bold;
+    background-color: white;
+    outline: none;
+    border:0.5px solid;
+    letter-spacing: 2px;
+    color:grey;
+}
+
+button:hover {
+    background-color: rgba(20, 20, 52, 0.745);
+    color:white;
+}
+#next {
+    background-color: rgba(20, 20, 52, 0.745);
+    color:white;
+  
+}
+
+#next:hover {
+    background-color:white;
+    color:black;
+}
+p {  
+    margin-bottom: 10px;
+    display: block;
+    color: grey;
+    line-height: 27px;
+    font-size: 13px;
+    letter-spacing: 1px;
+   
+}
+.info{
+    color:black;
+    text-align: left;
+    margin-bottom: -17px;
+    margin-left: 25px;
+    
+}
+
+.pass {
+    margin-left: -260px;
+    margin-top: 1px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    
+}
+
+.forgot {
+    margin-top: 15px;
+}
+
+.mobile {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 16px;
+    
+}
+#select {
+    border-radius: 5px;
+    width:31%;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.paral {
+    text-align: left;
+    margin-left: 15px;
+    line-height: 20px;
+    margin-top: 10px;
+
+}
+
+.mob {
+    width: 67%;
+}
+
+.checking {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 19px;;
+}
+
+#checkbox {
+    margin-top: 15px; 
+}
+
+.links {
+    color: rgb(64, 160, 197);
+}
+

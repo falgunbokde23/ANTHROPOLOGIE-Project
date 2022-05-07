@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating Account</title>
+    <link rel="stylesheet" href="SignIn.css" />
+    <style>
+        #container {
+            overflow: scroll;
+        }
+       
+    </style>
+</head>
+<body>
+    <div id="container">  
+        <form class="form">
+            <div class="close-btn">&times</div>
+            
+            <div id="lower-box">
+                <h2>Create An Account</h2>
+                <hr class="line">
+                <div class="para">
+                    <p>Welcome to Anthropologie! It's quick and 
+                        easy to set up an account.</p>
+                </div> 
+
+                       
+                <p class="info">Email*</p> <br>
+                <input class="input-box" id="email"type="email" placeholder="" />
+              
+               
+                
+                <p class="info paral">Mobile Number *</p><br>
+                <div class="mobile">
+                    <select id="select">
+                        <option>IN (+91)</option>
+                        <option>AD (+376)</option>
+                        <option>AE (+971)</option>
+                        <option>AG (+1)</option>
+                        <option>AI (+1)</option>
+                        <option>AL (+355)</option>
+                        <option>AM (+374)</option>
+                        <option>AR (+54)</option>
+                        <option>AT (+43)</option>
+                        <option>AU (+61)</option>
+                    </select>
+                    <input class="input-box mob" id="mobile" type="password" placeholder="" />
+                </div>
+               
+                <p class="paral">Enter your mobile number to receive a verification code. 
+                    Note: This action does not enroll you in SMS marketing messages.</p>
+                
+                    <input class="input-box" id="next" type="submit" value="NEXT"/><br>
+
+                <div class="checking">
+                    <input id="checkbox" type="checkbox"/>
+                    <p class="paral">Sign me up to receive Anthropologie offers, promotions and other commercial messages. By creating an account, I agree to Anthropologie's Terms of Service and Privacy Policy. I may unsubscribe at any time. 
+                        Creating an account will not enroll you in SMS marketing.</p>
+                    
+                </div>
+                <p class ="paral">By creating an account, you agree to Anthropologie's terms of use and privacy policy. Landlines, VoIP, and prepaid phones are not supported. Standard message & data rates may apply. Message frequency may vary. 
+                    Reply HELP for help, and STOP to cancel. Contact us for more information.</p>
+               
+                    <hr class="line line2">
+                <h2>Already Have an Account?</h2>
+            
+            
+
+                <button>SIGN IN</button>
+            </div>
+        </form>
+    </div>
+
+
+</body>
+</html>
+
+<script>
+
+var form = document.querySelector("form");
+    
+form.addEventListener("submit", function(event){
+    event.preventDefault();
+    console.log("clicked")
+    alert("WELCOME TO OUR WEBSITE ANTHROPOLOGIE")
+    //  window.location.href=".html"
+    
+
+
+var data = {
+  useremail: form.email.value,
+  usermobileNo : form.mobile.value
+}
+
+console.log(data)
+localStorage.setItem("userEmail",JSON.stringify(data));
+
+})
+
+
+</script>

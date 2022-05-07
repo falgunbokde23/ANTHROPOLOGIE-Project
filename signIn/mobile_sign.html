@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Signing</title>
+    <style>
+        #container {
+            overflow: scroll;
+        }
+       
+    </style>
+    <link rel="stylesheet" href="SignIn.css" />
+</head>
+<body>
+    <div id="container">  
+        <form class="form">
+            <div class="close-btn">&times</div>
+            
+            <div id="lower-box">
+                <h2>Sign In</h2>
+                <hr class="line">
+                <div class="para">
+                    <p>Sign in so you can save items to your wishlists, 
+                        track your orders,and check out faster!</p>
+                </div> 
+                
+                <p class="info paral">Mobile Number *</p><br>
+                <div class="mobile">
+                    <select id="select">
+                        <option>IN (+91)</option>
+                        <option>AD (+376)</option>
+                        <option>AE (+971)</option>
+                        <option>AG (+1)</option>
+                        <option>AI (+1)</option>
+                        <option>AL (+355)</option>
+                        <option>AM (+374)</option>
+                        <option>AR (+54)</option>
+                        <option>AT (+43)</option>
+                        <option>AU (+61)</option>
+                        <option>AM (+63)</option>
+                    </select>
+                    <input class="input-box mob" type="password" placeholder="" />
+                </div>
+               
+                <p class="paral">Enter your mobile number to receive a verification code. 
+                    Note: This action does not enroll you in SMS marketing messages.</p>
+                
+                    <input class="input-box" id="next" type="submit" value="NEXT"/><br>
+                <p class="forgot" ><a href="a">Sign In with Email Instead</a></p>
+                <p class="paral">Landlines, VoIP, and prepaid phones are not supported. Standard message & data rates may apply. 
+                    Message frequency may vary. Reply HELP for help, and STOP to cancel.</p>
+
+                    <hr class="line line2">
+                <h2>Sign Up</h2>
+            
+                <p>Welcome! it's quick & easy to set up an account</p>
+
+                <button>CREATE AN ACCOUNT</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
+<script>
+
+var form = document.querySelector("form");
+    
+form.addEventListener("submit", function(event){
+    event.preventDefault();
+    console.log("clicked")
+    alert("SIGN IN Successful")
+    //  window.location.href=".html"
+    
+
+
+var data = {
+ 
+  usermobileNo : form.mobile.value
+}
+
+console.log(data)
+localStorage.setItem("userEmail",JSON.stringify(data));
+
+})
+
+
+</script>
