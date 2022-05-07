@@ -3,284 +3,274 @@ var dressData = [
     {
       image_url: "https://images.urbndata.com/is/image/Anthropologie/4130010810001_053_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       name: "Amanda Upacharia",
-      dollar: "$",
-      price: "246.00",
+      price: 246,
       strikedoffprice: "$2599",
     },
     {
       image_url: "https://images.urbndata.com/is/image/Anthropologie/4130099510208_082_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       name: "Faith full babydoll mid dress",
-      dollar: "$",
-      price: "219.00",
+      price: 219,
       strikedoffprice: 999,
     },
     {
       image_url:"https://images.urbndata.com/is/image/Anthropologie/4130916210042_040_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       name: "The maris drees ",
-      dollar: "$",
-      price: "180.00",
+      price: 180,
       strikedoffprice: 2099,
     },
     {
       image_url:
         "https://images.urbndata.com/is/image/Anthropologie/4130638280199_010_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       name: "fram x athrology",
-      dollar:"$",
-      price: "248.00",
+      price: 248,
       strikedoffprice: 799,
     },
     {
       image_url:
         "https://images.urbndata.com/is/image/Anthropologie/4130930420004_000_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       name: " Teva Hurricane Verge Sandals",
-      dollar: "$",
-      price: "80.00",
+      price: 80,
       strikedoffprice: 3599,
     },
     {
       image_url:
         "https://images.urbndata.com/is/image/Anthropologie/4130348690159_070_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       name: "Rony cobo one shoulder tropical",
-      dollar: "$",
-      price: "548.00",
+      price: 548,
       strikedoffprice: 3199,
     },
     {
       image_url:
         "https://images.urbndata.com/is/image/Anthropologie/4130646420009_014_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349 ",
       name: " Melissa Bikini Platform Sandals ",
-      dollar: "$",
-      price: "40.00",
+      price: 40,
       strikedoffprice: 3199,
     },
     {
       image_url:
         "https://images.urbndata.com/is/image/Anthropologie/4130652010047_080_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       name: "V-neck wrap mini dress",
-      dollar: "$",
-      price: "148.00",
+      price: 148,
       strikedoffprice: 1099,
     },
     {
       image_url:
         "https://images.urbndata.com/is/image/Anthropologie/4130916210078_049_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       name: "Emini halter mini dress" ,
-      dollar: "$",
-      price: "140.00",
+      price: 140,
       strikedoffprice: 1440,
     },
     {
       image_url:
         "https://images.urbndata.com/is/image/Anthropologie/4130464030191_095_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349 ",
       name: "Hutch high low wrap dress",
-      dollar: "$",
-      price: "45.00",
+      price: 45,
       strikedoffprice: 999,
     },
     {
       image_url:
         "https://images.urbndata.com/is/image/Anthropologie/4130652010001_052_c2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       name: "Elis bAis Dress  ",
-      dollar: "$",
-      price: "198.00",
+    
+      price: 198,
       strikedoffprice: 399,
     },
     {
       image_url:
         "https://images.urbndata.com/is/image/Anthropologie/4130370060073_040_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349 ",
       name: "Halter slide-slite maxi dress",
-      dollar: "$",
-      price: "170.00",
+      
+      price: 170,
       strikedoffprice: 359,
     },
     {
       image_url:
         "https://images.urbndata.com/is/image/Anthropologie/4130226850016_060_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       name: " hutch disty-printed mini dress",
-      dollar: "$",
-      price: "170.00",
+  
+      price: 170,
       strikedoffprice: 999,
     },
     {
       image_url:"https://images.urbndata.com/is/image/Anthropologie/4130916210075_095_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349 ",
       name: " blue tassaai mini dress",
-      dollar: "$",
-      price: "148.00",
+   
+      price: 148,
       strikedoffprice: 499,
     },
     {
       image_url:
         "https://images.urbndata.com/is/image/Anthropologie/4130210690119_001_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349 ",
       name: "Eva franko tie mini dress ",
-      dollar: "$",
-      price: "198.00",
+   
+      price: 198,
       strikedoffprice: 500,
     },
     {
       image_url:
         "https://images.urbndata.com/is/image/Anthropologie/4130078420005_060_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       name: " solid fring halter maxi dress",
-      dollar: "$",
-      price: "298.00",
+    
+      price: 298,
       strikedoffprice: 399,
     },
     {
       image_url:
         "https://images.urbndata.com/is/image/Anthropologie/4130370060075_070_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       name: " slick colourblocked maxi dress",
-      dollar: "$",
-      price: "248",
+   
+      price: 248,
       strikedoffprice: 699,
     },
     {
       image_url:
         "https://images.urbndata.com/is/image/Anthropologie/4130024090110_050_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       name: "Pilcro picola trio dress  ",
-      dollar: "$",
-      price: "198.00",
+      
+      price: 198,
       strikedoffprice: 699,
     },
     {
       image_url:
         "https://images.urbndata.com/is/image/Anthropologie/4130089450008_066_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       name: " Pink dreesed ",
-      dollar: "$",
-      price: "140.00",
+      
+      price: 140,
       strikedoffprice: 3499,
     },
     {
       image_url:
         " https://images.urbndata.com/is/image/Anthropologie/4130348690159_066_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349 ",
       name: "  Tie-Up Thong Sandals ",
-      dollar: "$",
-      price: "655.00",
+    
+      price: 655,
       strikedoffprice: 4999,
     },
     {
       image_url:
         " https://images.urbndata.com/is/image/Anthropologie/4130370060070_059_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       name: " Pilcs frined dress ",
-      dollar: "$",
-      price: "945.00",
+  
+      price: 945,
       strikedoffprice: 1499,
     },
     {
       image_url:
         " https://images.urbndata.com/is/image/Anthropologie/59743971_032_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349 ",
       name: " Pilcro Tie-Up Thong ",
-      dollar: "$",
-      price: "650.00",
-      strikedoffprice: 2299,
+      
+      price: 650,
+     strikedoffprice: 2299,
     },
     {
       image_url:" https://images.urbndata.com/is/image/Anthropologie/4130464030166_001_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       name: " black boundy ",
-      dollar: "$",
-      price: "545.00",
+    
+      price: 545,
       strikedoffprice: 3599,
     },
     {
       image_url:
         "https://images.urbndata.com/is/image/Anthropologie/4130646420031_266_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349 ",
         name: "Birkenstock Sandals",
-        dollar: "$",
-        price: "365.00",
+       
+        price: 365,
       strikedoffprice: 1299,
     },
     {
       image_url:
         " https://images.urbndata.com/is/image/Anthropologie/4130226850013_024_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349 ",
       name: "Siena Vegan  ",
-      dollar: "$",
-      price: "742.00",
+     
+      price: 742,
       strikedoffprice: 4999,
     },
     {
       image_url:
         " https://images.urbndata.com/is/image/Anthropologie/4130916210078_082_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349 ",
       name: " yellow dress ",
-      dollar: "$",
-      price: "932.00",
+ 
+      price: 932,
       strikedoffprice: 4999,
     },
     {
       image_url:
         "https://images.urbndata.com/is/image/Anthropologie/68329697_060_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349  ",
       name: " strip dress  ",
-      dollar: "$",
-      price: "440.00",
+  
+      price: 440,
       strikedoffprice: 2799,
     },
     {
       image_url:
         "https://images.urbndata.com/is/image/Anthropologie/4130089450007_030_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349 ",
       name: " green dress",
-      dollar: "$",
-      price: "1102.00",
+   
+      price: 1102,
       strikedoffprice: 3499,
     },
     {
       image_url:
         "https://images.urbndata.com/is/image/Anthropologie/64734064_011_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       name: "white one pice",
-      dollar: "$",
-      price: "3119.00",
+
+      price: 3119,
       strikedoffprice: 5599,
     },
     {
       image_url:
         "https://images.urbndata.com/is/image/Anthropologie/4130226850014_010_b15?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       name: "Pilcro white Flat",
-      dollar: "$",
-      price: "1244.00",
+  
+      price: 1244,
       strikedoffprice: 3599,
     },
     {
       image_url:
         "https://images.urbndata.com/is/image/Anthropologie/4130615880021_060_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       name: "Jeffery orange designe",
-      dollar: "$",
-      price: "2796.00",
+
+      price: 2796,
       strikedoffprice: 3599,
     },
     {
       image_url:
         "https://images.urbndata.com/is/image/Anthropologie/62549654_041_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       name: "black one pice",
-      dollar: "$",
-      price: "5000.00",
+      
+      price: 5000,
       strikedoffprice: 9999,
     },
     {
       image_url:
         "https://images.urbndata.com/is/image/Anthropologie/54524780_040_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       name: "Apl Logo Slide black",
-      dollar: "$",
-      price: "1056.00",
+
+      price: 1056,
       strikedoffprice: 1299,
     },
     {
       image_url:
         "https://images.urbndata.com/is/image/Anthropologie/4130318350031_010_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       name: "Pilcro Woven ",
-      dollar: "$",
-      price: "1043.00",
+    
+      price: 1043,
       strikedoffprice: 1299,
     },
     {
       image_url:
         "https://images.urbndata.com/is/image/Anthropologie/4130929840005_018_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       name: " Freedom Moses DOts",
-      dollar: "$",
-      price: "2035.00",
+      
+      price: 2035,
       strikedoffprice: 2499,
     },
     {
       image_url:
         "https://images.urbndata.com/is/image/Anthropologie/4130880890038_009_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
       name: "fram rio dress",
-      dollar: "$",
-      price: "1115.00",
+     
+      price: 1115,
       strikedoffprice: 1799,
     },
   ];

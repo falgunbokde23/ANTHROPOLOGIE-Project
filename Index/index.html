@@ -7,7 +7,8 @@
     <title>Anthropologie.com</title>
     <link rel="stylesheet" href="Navbar.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="C:\Users\admin\Desktop\New folder (2)\ANTHROPOLOGIE-Project\footer\footer.css">
+    <script src="https://kit.fontawesome.com/e9bb69dc7f.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400&family=Noto+Serif&display=swap" rel="stylesheet"> 
@@ -15,12 +16,166 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+          <style>
+        #container{
+            display :grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(1, auto);
+            width :90%;
+            margin :auto;
+            gap :15px 20px;
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 130px;
+        }
+        #container>div>img{
+            width: 100%;
+            height: 90%;
+            cursor:pointer;
+            transition: transform .2s;
+        }
+        #container>div>img:hover{
+            
+            transform: scale(1.1);
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+        }
+        #container>div>p{
+            font-size: 13px;
+            font-family:  Avenir Medium,sans-serif;
+            color: inherit;
+            text-align: start;
+        }
+        #container>div>p:hover{
+            color:#167a92;
+            cursor: pointer;
+        }
+        #container1{
+            display :grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(1, auto);
+            width :90%;
+            margin :auto;
+            gap :15px 20px;
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 100px;
+        }
+        #container1>div>img{
+            width: 100%;
+            height: 70%;
+            cursor:pointer;
+        }
+        #container1>div>h2{
+            font-size: 23px;
+            font-family: Spectral Extra Light,serif;
+            font-weight: 100;
+            text-align: start;
+            color: #26262C;
+        }
+        #container1>div>h3{
+            text-align: start;
+            font-size: 18px;
+            color: #26262C;
+            margin:0px 0px 15px;
+            font-weight: 100;
+        }
+        #aboutus{
+            /* border: 1px solid red; */
+            width: 90%;
+            height: auto;
+            margin: auto;
+            border-top: 1px solid #e5e2de;
+            padding-top: 50px;
+        }
+        #aboutus>h2{
+            font-size: 18px;
+            color: #26262C;
+            margin: 0px 0px 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 100;
+            padding-top: -10px;
+        }
+        #aboutus>h4{
+            font-size: 15px;
+            margin: 0px 0px 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 100;
+        }
+        .dress{
+            color: #167a92;
+            text-decoration: underline;
+            cursor: pointer;
+            padding-bottom: 25px;
+        }
+        .dress:hover{
+            text-decoration: none;
+        }
+
+        .line{
+            text-align: start;
+            text-decoration: underline;
+            color: #167a92;
+            cursor: pointer;
+        }
+        .line:hover{
+            text-decoration: none;
+        }
+
+        .line-text{
+           padding-top: 30px;
+            border-bottom:1px solid #e5e2de;
+            width: 90%;
+            margin: auto;
+        }
+        .line-text>h2{
+          font-size: 18px;
+          font-family: Arial medium, sans-serif;
+          margin: 0px 0px 15px;
+          color: #26262C;
+          font-weight: 555;
+        }
+        .line-text2{
+           /* padding-top: 130px; */
+            border-bottom:1px solid #e5e2de;
+            width: 90%;
+            margin: auto;
+        }
+        .line-text2>h2{
+          font-size: 18px;
+          font-family: Arial medium, sans-serif;
+          margin: 0px 0px 15px;
+          color: #26262C;
+          font-weight: 555;
+        }
+        .line-text3{
+           /* padding-top: 130px; */
+            border-bottom:1px solid #e5e2de;
+            width: 90%;
+            margin: auto;
+        }
+        .line-text3>h2{
+            text-align: center;
+          font-size: 18px;
+          font-family: Arial medium, sans-serif;
+          margin: 0px 0px 15px;
+          color: #26262C;
+          font-weight: 555;
+        }
+        .exclusive{
+            text-align: center;
+            margin-bottom: 100px;
+            margin-top: -30px;
+            font-size: 13px;
+           
+        }
+    </style>
 </head>
 <body>
     <div>
         <div id="promo">
             <div id="leftslide">
-                <a href=""><img class="slider" src="icon\android-chrome-192x192.png"></img></a>
+                <a href=""><img class="slider" src="C:\Users\admin\Desktop\New folder (2)\ANTHROPOLOGIE-Project\icon\android-chrome-192x192.png"></img></a>
             </div>
             <div id="text-banner">
                 <p id="preheadind"><i>the season's best looks are as easy as 1, 2, 3</i></p>
@@ -28,18 +183,18 @@
                 <a id="link-client" href="#">shop the latest edit</a>
             </div>
             <div id="rightslide">
-                <a href=""><img class="slider" src="icon\android-right-192x192.png"></img></a>
+                <a href=""><img class="slider" src="C:\Users\admin\Desktop\New folder (2)\ANTHROPOLOGIE-Project\icon\android-right-192x192.png"></img></a>
             </div>
         </div>
         <div id="utility">
             <div id="language">
-                <div><img src="icon\globe-svgrepo-com.svg" alt=""></div>
+                <div><img src="C:\Users\admin\Desktop\New folder (2)\ANTHROPOLOGIE-Project\icon\globe-svgrepo-com.svg" alt=""></div>
                 <div><p>English  ($)</p></div>
-                <div><img src="icon\down-arrow-svgrepo-com.svg" alt=""></div>
+                <div><img src="C:\Users\admin\Desktop\New folder (2)\ANTHROPOLOGIE-Project\icon\down-arrow-svgrepo-com.svg" alt=""></div>
             </div>
             <div id="credebility">
-                <div><img src="icon\user-profile-svgrepo-com.svg" alt="profile"></div>
-                <div><a href="#">Sing In / Sign Up</a></div>
+                <div><img src="C:\Users\admin\Desktop\New folder (2)\ANTHROPOLOGIE-Project\icon\user-profile-svgrepo-com.svg" alt="profile"></div>
+                <div><a href="C:\Users\admin\Desktop\New folder (2)\ANTHROPOLOGIE-Project\signIn\SignIn.html">Sing In / Sign Up</a></div>
             </div>
         </div>
     <div id="navbar">
@@ -50,11 +205,11 @@
             </div>
             <div id="search-cart">
                 <div class= "search" id="search">
-                    <a class= "search" href="#">Search Anthropologie</a>
-                    <img src="icon\search-svgrepo-com.svg" alt="">
+                    <a class= "search" href="C:\Users\admin\Desktop\New folder (2)\ANTHROPOLOGIE-Project\Index\index.html">Search Anthropologie</a>
+                    <img src="C:\Users\admin\Desktop\New folder (2)\ANTHROPOLOGIE-Project\icon\search-svgrepo-com.svg" alt="">
                 </div>
                 <div id="cart_ico">
-                    <a href="#"><img src="icon\bag-svgrepo-com.svg" alt=""></a>
+                    <a href="C:\Users\admin\Desktop\New folder (2)\ANTHROPOLOGIE-Project\Basket\Basket.html"><img src="C:\Users\admin\Desktop\New folder (2)\ANTHROPOLOGIE-Project\icon\bag-svgrepo-com.svg" alt=""></a>
                 </div>
             </div>
         </div>
@@ -62,21 +217,21 @@
             <div id="variation">
                 <div><a id="new" href="#">New!</a></div>
                 <div id="new_content"></div>
-                <div><a id="gift" href="#">Gifts for Mom</a></div>
+                <div><a id="gift" href="C:\Users\admin\Desktop\New folder (2)\ANTHROPOLOGIE-Project\momgift\giftmom.html">Gifts for Mom</a></div>
                 <div id="gift_content"></div>
-                <div><a id="dress" href="#">Dresses</a></div>
+                <div><a id="dress" href="C:\Users\admin\Desktop\New folder (2)\ANTHROPOLOGIE-Project\dress\dress.html">Dresses</a></div>
                 <div id="dress_content"></div>
-                <div><a id="clothing" href="#">clothing</a></div>
+                <div><a id="clothing" href="C:\Users\admin\Desktop\New folder (2)\ANTHROPOLOGIE-Project\clothes\clothes.html">clothing</a></div>
                 <div id="clothing_content"></div>
-                <div><a id="shoes" href="#">Shoes</a></div>
+                <div><a id="shoes" href="C:\Users\admin\Desktop\New folder (2)\ANTHROPOLOGIE-Project\Shoes\Shoes.html">Shoes</a></div>
                 <div id="shoes_content"></div>
-                <div><a id="Accessories" href="#">Accessories</a></div>
+                <div><a id="Accessories" href="C:\Users\admin\Desktop\New folder (2)\ANTHROPOLOGIE-Project\accesssories\Accessories.html">Accessories</a></div>
                 <div id="Accessories_content"></div>
                 <div><a id="furniture" href="#">Home & Furniture</a></div>
                 <div id="furniture_content"></div>
-                <div><a id="beauty" href="Beauty.html">Beauty & Wellness</a></div>
+                <div><a id="beauty" href="C:\Users\admin\Desktop\New folder (2)\ANTHROPOLOGIE-Project\Beauty\Beauty.html">Beauty & Wellness</a></div>
                 <div id="beauty_content"></div>
-                <div><a id="garden" href="#">Garden & Outdoor</a></div>
+                <div><a id="garden" href="C:\Users\admin\Desktop\New folder (2)\ANTHROPOLOGIE-Project\Garden\Garden.html">Garden & Outdoor</a></div>
                 <div id="garden_content"></div>
                 <div><a id="weddingt" href="#">Weddings</a></div>
                 <div id="wedding_content"></div>
@@ -99,6 +254,104 @@
             <div class="pop_up"><a href="#"><img src="https://images.ctfassets.net/5de70he6op10/7DEijhrVDU6Yq9fW3H4NYu/1ccd807faed448b9ca75bac79944b9c5/050222_HPG_LS_M3.jpg?w=2694&q=80&fm=webp" alt=""></a></div>
         </div>
     </div>
+
+    <!-- you may like this part from here -->
+    <div class="line-text2">
+        <h2>You May Also Like</h2>
+    </div>
+    <div id="container">
+            <div>
+              <img src="https://images.urbndata.com/is/image/Anthropologie/64999899_211_b?$an-category$&qlt=80&fit=constrain" alt="">  
+              <p>Cozy Scrunchie Set</p>
+            </div>
+            <div>
+                <img src="https://images.urbndata.com/is/image/Anthropologie/37659125_910_b10?$an-category$&qlt=80&fit=constrain" alt="">  
+                <p>Monogram Pendant Neckleace</p>
+            </div>
+            <div>
+                <img src="https://images.urbndata.com/is/image/Anthropologie/56881774_066_b10?$an-category$&qlt=80&fit=constrain" alt="">  
+                <p>Bastide Rose Oliver Hand Cream</p>
+            </div>
+            <div>
+                <img src="https://images.urbndata.com/is/image/Anthropologie/68101260_011_b2?$an-category$&qlt=80&fit=constrain" alt="">  
+                <p>Linen Baseball Cap</p>
+            </div>
+            <div>
+                <img src="https://images.urbndata.com/is/image/Anthropologie/68462258_020_b2?$an-category$&qlt=80&fit=constrain" alt="">
+                <p>Matisse Rogue Slide Sandals</p>
+            </div>
+        </div>
+
+        <!-- trending now -->
+
+        <div class="line-text2">
+            <h2>Trending Now</h2>
+        </div>
+
+        <div id="container">
+                <div>
+                    <img src="https://images.urbndata.com/is/image/Anthropologie/66504861_030_b?$an-category$&qlt=80&fit=constrain" alt="">
+                  <p>Printed Halter Dress</p>
+                </div>
+                <div>
+                    <img src="https://images.urbndata.com/is/image/Anthropologie/4122057270385_093_b2?$an-category$&qlt=80&fit=constrain" alt="">
+                    <p>Paige Colette Mid-Rise Cropped Raw-Hem Flare Jeans</p>
+                </div>
+                <div>
+                    <img src="https://images.urbndata.com/is/image/Anthropologie/4122057270394_091_b2?$an-category$&qlt=80&fit=constrain" alt="">
+                    <p>Paige Anessa Ultra-High Rise Raw-Hem Wide-Leg Jeans</p>
+                </div>
+                <div>
+                    <img src="https://images.urbndata.com/is/image/Anthropologie/45464429AA_095_b2?$an-category$&qlt=80&fit=constrain" alt="">  
+                    <p>All Roads Yucca Curtain</p>
+                </div>
+                <div>
+                    <img src="https://images.urbndata.com/is/image/Anthropologie/55096762_070_a?$an-category$&qlt=80&fit=constrain" alt="">
+                    <p>Astria Hairpin Set</p>
+                </div>
+            </div>
+
+            <!-- More to Explore -->
+
+            <div class="line-text3">
+                <h2>More to Explore</h2>
+            </div>
+
+            <div id="container1">
+                <div>
+                    <img src="https://images.ctfassets.net/5de70he6op10/6fqnRygHuJSypTKaxojLDC/62dd14b7b808b58a09012c535a6bbb8d/041122_HPG_MTE_DenimShop.jpg?w=856&q=80&fm=webp" alt="">
+                    <h2>Good Jeans: The Denim Fit Guide</h2>
+                    <h3>Introducing the perfect pairs for every wear. From rise to size, here's how to find your new favorite jeans.</h3>
+                    <p class="line">find your fit</p>
+                </div>
+                <div>
+                    <img src="https://images.ctfassets.net/5de70he6op10/5z1SzJjtkNuitP2HKuc7Ww/4f0f76621a8587e50d4b9e96a30edf36/041122_HPG_MTE_GreaterGood.jpg?w=856&q=80&fm=webp" alt="">
+                    <h2>A Greater Good</h2>
+                    <h3>Our priority: to be a force for good, a greater good, in better service of our planet, its people, and our products.</h3>
+                    <p class="line">learn more about our journey</p>
+                </div>
+                <div>
+                    <img src="https://images.ctfassets.net/5de70he6op10/54SroRrXp9QpYMEn5Zqrvp/c91bcee7f1aad1f53f8ce017576e8985/041122_HPG_MTE_SpringHomeJournal.jpg?w=856&q=80&fm=webp" alt="">
+                    <h2>The Story of Home</h2>
+                    <h3>From front (door) to back(yard), we're reading between the herringbone-inspired lines and handwoven cords of our outdoor collection for spring.</h3>
+                    <p class="line">shop the collection</p>
+                </div>
+            </div>
+
+            <!-- *Exclusions apply – see details . -->
+
+            <div class="exclusive">*Exclusions apply – see <u>details</u> .</div>
+
+            <!-- About Us -->
+            <div id="aboutus">
+                <h2>About Us</h2>
+                <h4>Our mission at Anthropologie has always been to surprise and delight you with unexpected, distinctive finds for your closet and home. We source and craft all of our products with care, ensuring that any treasure you find at Anthropologie is unique, just like you. Explore our <span class="dress">dress shop</span> to find styles and fits perfect for any occasi...</h4>
+                <p class="dress">Read More</p>
+
+            </div>
+
+      <!-- you may like this part end from here -->
+
     <!-- footer  part from now common for all the pages  -->
 
     <footer id="footer">

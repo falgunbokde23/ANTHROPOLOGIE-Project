@@ -1,15 +1,13 @@
 var giftmomDATA=[{
     image_url:"https://images.urbndata.com/is/image/Anthropologie/65653032_048_b15?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
     name:"Nostalagia Candle",
-     doller:"$",
-     price:"24.00"
+     price:24,
     
   },
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/67542654_079_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
     name:"Moxy-Collective Florl Pajama Pants",
-     doller:"$",
-     price:"58.00",
+     price:445,
     
     
   
@@ -18,48 +16,42 @@ var giftmomDATA=[{
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/68087998_901_b10?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
     name:"Pearl Monogram Bracelet Set",
-     doller:"$",
-     price:"38.00",
+     price:30,
    
   
   },
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/37659125_901_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
     name:"Monogram Pendant Necklace",
-     doller:"$",
-     price:"38.00",
+     price:380,
    
   
   },
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/67437731_000_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
     name:"Mommy & Me Daphne Floral Headband",
-     doller:"$",
-     price:"268.00",
+     price:268,
   
   
   },
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/67442533_041_b14?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
     name:"Mama Dish Towel",
-     doller:"$",
-     price:"20.00",
+     price:200,
   
   
   },
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/66793282_102_b11?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
     name:"Old Havana pie Dish",
-     doller:"$",
-     price:"44.00",
+     price:440,
   
   
   },
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/47082029_083_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
     name:"Jimene Occasional Chair",
-     doller:"$",
-     price:"998.00",
+     price:996,
   
     
   
@@ -67,56 +59,49 @@ var giftmomDATA=[{
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/65534950_066_b10?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
     name:"Sculpture Garden Candle",
-     doller:"$",
-     price:"44.00",
+     price:440,
    
   
   },
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/66769589_049_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
     name:"Dannijo Huggie Drp Earrings",
-     doller:"$",
-     price:"148.00",
+     price:140,
    
   
   },
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/66769613_049_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
     name:"Dannijo Francesca Heart-Shaped Drop Necklace",
-     doller:"$",
-     price:"228.00",
+     price:224,
    
   
   },
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/67437772_102_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
     name:"Mommy & Me Pearl Headband",
-     doller:"$",
-     price:"198.00",
+     price:1980,
    
   
   },
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/54102041_070_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
     name:"Dapper Dog Wine Bottle Holder",
-     doller:"$",
-     price:"118.00",
+     price:110,
    
   
   },
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/65780488_901_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
     name:"Blocjprinted Monogram Mug",
-     doller:"$",
-     price:"12.00",
+     price:120,
    
   
   },
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/67437756_043_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
     name:"Mommy & Me Floral Beaded Headband",
-     doller:"$",
-     price:"268.00",
+     price:2680,
    
   
   },
@@ -124,24 +109,21 @@ var giftmomDATA=[{
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/64934409_048_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
     name:"Mer-Sea &Co.Avant Garden Bath Saok",
-     doller:"$",
-     price:"20.00",
+     price:200,
    
   
   },
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/68687821_070_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
     name:"Cloverport Ellie Neckle",
-     doller:"$",
-     price:"123.00",
+     price:1230,
    
   
   },
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/67542654_079_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
     name:"Moxy-Collective Florl Pajama Pants",
-     doller:"$",
-     price:"158.00",
+     price:150,
     
     
   
@@ -150,48 +132,42 @@ var giftmomDATA=[{
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/68087998_901_b10?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
     name:"Pearl Monogram Bracelet Set",
-     doller:"$",
-     price:"308.00",
+     price:300,
    
   
   },
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/37659125_901_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
     name:"Monogram Pendant Necklace",
-     doller:"$",
-     price:"380.00",
+     price:380,
    
   
   },
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/67437731_000_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
     name:"Mommy & Me Daphne Floral Headband",
-     doller:"$",
-     price:"28.00",
+     price:280,
   
   
   },
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/67442533_041_b14?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
     name:"Mama Dish Towel",
-     doller:"$",
-     price:"204.00",
+     price:200,
   
   
   },
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/66793282_102_b11?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
     name:"Old Havana pie Dish",
-     doller:"$",
-     price:"440.00",
+     price:440,
   
   
   },
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/47082029_083_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
     name:"Jimene Occasional Chair",
-     doller:"$",
-     price:"98.00",
+     price:980,
   
     
   

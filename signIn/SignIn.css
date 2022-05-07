@@ -59,7 +59,7 @@ body {
  height:35px;
  width: 50px;
  cursor:pointer;
- margin-left: 370px;;
+ margin-left: 320px;
  font-size:45px;
  line-height:25px;
  margin-top: -5px;
@@ -121,7 +121,7 @@ p {
 }
 
 .pass {
-    margin-left: -260px;
+    margin-left: -220px;
     margin-top: 1px;
 }
 
