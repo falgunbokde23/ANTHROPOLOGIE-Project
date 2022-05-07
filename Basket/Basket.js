@@ -97,6 +97,7 @@ function checkoutFun(){
         shipping: document.querySelector("#ShippingAmount").innerText,
         total: document.querySelector("#Total").innerText
     }
+    window.location.href="C:\\Users\\admin\\Desktop\\New folder (2)\\ANTHROPOLOGIE-Project\\payment\\payment.html"
 
     localStorage.setItem("Bill_details", JSON.stringify(bill));
 }

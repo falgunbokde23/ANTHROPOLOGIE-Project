@@ -4,7 +4,7 @@
       image_url:
         "https://images.urbndata.com/is/image/Anthropologie/B45246403AA_014_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349 ",
       name: "Peacock Ottoman",
-      price: 434.00,
+      price: 434,
       strikedoffprice: 3599,
     },
     {

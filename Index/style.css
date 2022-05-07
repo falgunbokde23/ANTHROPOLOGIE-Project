@@ -66,7 +66,7 @@
 }
 
 
-/* .pop_up{
+.pop_up{
     margin: 0;
     overflow: hidden;
 
@@ -76,7 +76,7 @@
     transform: scale(1.1);
     transition: transform 0.5s, opacity 0.5s;
 
-} */
+} 
 
 
 @media all and (min-width:750px) and (max-width:950px){

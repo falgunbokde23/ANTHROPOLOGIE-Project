@@ -1,15 +1,15 @@
 var clothesDATA =[{
     image_url:"https://images.urbndata.com/is/image/Anthropologie/4130348690162_010_b14?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
    name:"Maeve Strappy Button-Front Midi Dress",
-     doller:"$",
-     price:"180.00",
+     
+     price:180,
     
   },
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/4130916210073_095_b14?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
    name:"One-Shoulder Silk Midi Dress",
-     doller:"$",
-     price:"298.00",
+     
+     price:298,
      midtext:"Plus Sizes"
   
   },
@@ -17,56 +17,56 @@ var clothesDATA =[{
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/4130344600147_080_b14?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
    name:"La Me Be Fringed Tube",
-     doller:"$",
-     price:"180.00",
+     
+     price:180,
      midtext:"Plus Sizes"
   
   },
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/4123652010014_009_b14?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
    name:"Maeve Printed Wide -leg Pants",
-     doller:"$",
-     price:"120.00",
+     
+     price:120,
      midtext:"Plus Sizes"
   
   },
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/4110347800056_066_b14?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
    name:"BL-nl Miranda Peasant Blouse",
-     doller:"$",
-     price:"190.00",
+     
+     price:190.00,
      midtext:"Plus Sizes"
   
   },
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/4120464030097_089_b14?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
    name:"Hutch Wrap Mini Skirt",
-     doller:"$",
-     price:"130.00",
+     
+     price:1300,
      midtext:"Plus Sizes"
   
   },
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/4130572900012_102_b14?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
    name:"Sabina Murayev Shine Midi Dress",
-     doller:"$",
-     price:"395.00",
+     
+     price:395,
      midtext:"Plus Sizes"
   
   },
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/4130059680123_010_b14?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
    name:"The Odells V-Neck Midi Dress",
-     doller:"$",
-     price:"259.00",
+     
+     price:2590,
      midtext:"Plus Sizes"
   
   },
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/4130916210073_095_b14?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
    name:"One-Shoulder Silk Midi Dress",
-     doller:"$",
-     price:"298.00",
+     
+     price:298,
      midtext:"Plus Sizes"
   
   },
@@ -74,64 +74,64 @@ var clothesDATA =[{
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/64219207_084_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
    name:"La Me Be Fringed Tube",
-     doller:"$",
-     price:"180.00",
+     
+     price:180,
      midtext:"Plus Sizes"
   
   },
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/64201411_016_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
    name:"Maeve Printed Wide -leg Pants",
-     doller:"$",
-     price:"120.00",
+     
+     price:540,
      midtext:"Plus Sizes"
   
   },
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/64200108_012_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
    name:"Maeve Printed Wide -leg Pants",
-     doller:"$",
-     price:"24.00",
+     
+     price:240,
      midtext:"Plus Sizes"
   
   },
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/4110089450034_010_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
    name:"One-Shoulder Silk Midi Dress",
-     doller:"$",
-     price:"298.00",
+     
+     price:298,
      midtext:"Plus Sizes"
   
   },
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/4130226850016_010_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
    name:"One-Shoulder Silk Midi Dress",
-     doller:"$",
-     price:"148.00",
+     
+     price:1480,
      midtext:"Plus Sizes"
   
   },
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/4130930420006_001_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
    name:"One-Shoulder Silk Midi Dress",
-     doller:"$",
-     price:"308.00",
+     
+     price:300,
      midtext:"Plus Sizes"
   
   },
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/4130659210008_070_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
    name:"One-Shoulder Silk Midi Dress",
-     doller:"$",
-     price:"298.00",
+     
+     price:298,
      midtext:"Plus Sizes"
   
   },
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/4130572650035_051_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
    name:"One-Shoulder Silk Midi Dress",
-     doller:"$",
-     price:"128.00",
+     
+     price:128,
      midtext:"Plus Sizes"
   
   },
@@ -139,32 +139,32 @@ var clothesDATA =[{
     image_url:"https://images.urbndata.com/is/image/Anthropologie/4112522160092_010_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
    name:"One-Shoulder Silk Midi Dress",
   
-     doller:"$",
-     price:"658.00",
+     
+     price:658,
      midtext:"Plus Sizes"
   
   },
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/4130226850015_060_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
    name:"One-Shoulder Silk Midi Dress",
-     doller:"$",
-     price:"144.00",
+     
+     price:144,
      midtext:"Plus Sizes"
   
   },
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/4112212060175_066_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
    name:"One-Shoulder Silk Midi Dress",
-     doller:"$",
-     price:"208.00",
+     
+     price:2028,
      midtext:"Plus Sizes"
   
   },
   {
     image_url:"https://images.urbndata.com/is/image/Anthropologie/4110089540028_010_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
    name:"One-Shoulder Silk Midi Dress",
-     doller:"$",
-     price:"698.00",
+     
+     price:6900,
      midtext:"Plus Sizes"
   
   },
