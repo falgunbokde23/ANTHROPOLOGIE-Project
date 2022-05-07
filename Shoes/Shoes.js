@@ -3,7 +3,7 @@ var WomensShoesData = [
     image_url: "https://images.urbndata.com/is/image/Anthropologie/66430166_025_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
     name: "Maeve Puffy Knotted Sandals ",
     price: 80,
-    strikedoffprice: "$2599",
+    strikedoffprice: 2599,
   },
   {
     image_url: "https://images.urbndata.com/is/image/Anthropologie/66435637_014_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",

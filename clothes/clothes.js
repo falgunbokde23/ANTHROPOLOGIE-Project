@@ -34,7 +34,7 @@ var clothesDATA =[{
     image_url:"https://images.urbndata.com/is/image/Anthropologie/4110347800056_066_b14?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349",
    name:"BL-nl Miranda Peasant Blouse",
      
-     price:190.00,
+     price:190,
      midtext:"Plus Sizes"
   
   },

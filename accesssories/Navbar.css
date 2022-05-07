@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+}
+
+#promo{
+    width: 100%;
+    height: 44px;
+    display: flex;
+    background-color: #5E7678;
+    justify-content: space-between;
+}
+
+#leftslide, #rightslide{
+    margin: 0 15px;
+}
+
+.slider{
+    width: 44px;
+    height: 44px;
+}
+
+#text-banner{
+    width: 45%;
+    height: 24px;
+    margin: 10px 0;
+}
+
+#text-banner{
+    display: flex;
+    width: 50%
+}
+#preheadind{
+    width: 50%;
+    margin: 3.2px 0;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    letter-spacing: 1px;
+}
+
+#heading, #link-client{
+    margin: 3.2px 0;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    letter-spacing: 1px;
+}
+
+#heading{
+    width: 28%;
+}
+
+#link-client{
+    width: 20%;
+}
+#link-client:hover{
+    color: black;
+    text-decoration: none;
+}
+
+/*---------------------------Search and Sign In/ Sign Up--------------------------------- */
+
+#utility{
+    display: flex;
+    justify-content:end ;
+    background-color: #F7F6F2;
+}
+#language{
+    display: flex;
+}
+#utility:hover{
+    cursor: pointer;
+}
+
+#language>div:nth-child(3)>img{
+    width: 10px;
+    height: 10px;
+    margin: 15px 10px;
+    fill: #167A92;
+}
+
+#language>div:nth-child(1)>img{
+    width: 20px;
+    height: 20px;
+    margin: 10px 10px;
+}
+
+#language>div:nth-child(2)>p{
+    font-size: 12px;
+    font-family: 'Mulish', sans-serif;
+    margin: 12px 0;
+    color: #167A92;
+}
+#language>div:nth-child(2)>p:hover{
+    color: black;
+}
+#credebility{
+    display: flex;
+    margin-right: 40px;
+}
+#credebility>div:nth-child(1)>img{
+    width: 20px;
+    height: 20px;
+    margin: 10px 10px;
+}
+#credebility>div:nth-child(2)>a{
+    font-size: 12px;
+    font-family: 'Mulish', sans-serif;
+    margin: 12px 0;
+    text-decoration: none;
+    color: #167A92;
+}
+#credebility>div:nth-child(2)>a:hover{
+    color: black;
+}
+#credebility>div:nth-child(2){
+    height: 20px;
+    padding: 12px 0;
+}
+#credibility:hover{
+    cursor: pointer;
+}
+/*---------------------------main-secondary-search-cart--------------------------------- */
+#navbar1{
+    
+    display: flex;
+    height:60px;
+    justify-content: space-between;
+    background-color: #FDFDF9;
+    border-bottom: 1px solid #E5E2DE;
+}
+
+#main-secondary{
+    display: flex;
+    margin-left: 40px;
+}
+#main{
+    padding: 20px 20px 10px;
+    border: 1px solid #E5E2DE;
+    border-top: 3px solid #167A92;
+}
+#main>a{
+    color: black;
+    text-decoration: none;
+    font-family: 'PT Serif', serif;
+    font-size: 14px;
+    letter-spacing: 4px;
+}
+#main:hover{
+    cursor: pointer;
+}
+#secondary{
+    padding: 17px;
+    border: 1px solid #E5E2DE;
+    border-top: 0;
+}
+#secondary:hover{
+    cursor: pointer;
+}
+#search-cart{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin-right: 40px;
+}
+#search{
+    display: flex;
+    margin: 9px 0;
+    justify-content: space-between;
+    width: 75%;
+    height: 42px;
+    border-radius: 3px;
+    border: 1px solid #E5E2DE;
+}
+.search{
+    cursor: pointer;
+    text-decoration:none;
+    color: black;
+}
+#seacrch:hover, #search>a:hover{
+    color: black;
+}
+#search>img{
+    width: 15px;
+    margin-right: 15px;
+}
+#search>a{
+    font-size: 14px;
+    margin: 12px 15px ;
+    font-family: 'Mulish', sans-serif;
+    color: #167A92;
+}
+#cart_ico>a>img{
+    width: 20px;
+    margin: 20px;
+}
+/*---------------------------Product variation--------------------------------- */
+#parentvariation{
+    background-color: #FDFDF9;
+    border-bottom: 1px solid #E5E2DE;
+}
+#variation{
+    width: 93%;
+    height: 60px;
+    display: flex;
+    gap: 10px;
+    margin: auto;
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+}
+#variation>div{
+    padding: 22px 0;
+}
+#variation>div>a{
+    color: black;
+    padding: 20px 10px;
+    font-size: 14px;
+    text-decoration:none ;
+}
+#variation>div:hover{
+    cursor: pointer;
+    padding: 22px 0;
+    border-bottom: 3px solid #167A92;
+    color: #167A92;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/*---------------------------Hover effect Product variation--------------------------------- */
+
