@@ -53,7 +53,7 @@ console.log(total_price, count);
 var billNumber = document.querySelector("#Basket_heading>p").innerText = "Bill Number "+total_price/count*100;
 console.log(billNumber);
 
-document.querySelector("#subtotalAmount").innerText = total_price;
+document.querySelector("#subtotalAmount").innerText = +total_price;
 var shippment = count*10;
 document.querySelector("#ShippingAmount").innerText = shippment;
 document.querySelector("#Total").innerText = shippment+total_price;
@@ -97,7 +97,7 @@ function checkoutFun(){
         shipping: document.querySelector("#ShippingAmount").innerText,
         total: document.querySelector("#Total").innerText
     }
-    window.location.href="C:\\Users\\admin\\Desktop\\New folder (2)\\ANTHROPOLOGIE-Project\\payment\\payment.html"
+    window.location.href="../payment/payment.html"
 
     localStorage.setItem("Bill_details", JSON.stringify(bill));
 }
