@@ -265,5 +265,9 @@
 	}
 	}
 
+    document.querySelector("#submit1").addEventListener("click", emptyFun);
+    function emptyFun(){
+        localStorage.removeItem("basket");
+    }
 
 </script>
