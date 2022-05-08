@@ -16,11 +16,11 @@ In my group , there are 5 members including me .
 we used only HTML5 , CSS3 , JAVASCRIPT .
 
 my group members name :
-1 Falgun Bokde
-2 Shalini 
-3 Shashwat Srivastava 
-4 Aditya Singh Ghosh 
-5 Asheesh Choudhary 
+1) Falgun Bokde
+2) Shalini 
+3) Shashwat Srivastava 
+4) Aditya Singh Ghosh 
+5) Asheesh Choudhary 
 
 
-thankyou ...
+Thankyou ...
